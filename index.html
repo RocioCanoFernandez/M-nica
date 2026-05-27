@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MDHOUSE · Servicios Inmobiliarios Integrales</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Servicios inmobiliarios integrales para comprar, vender, alquilar y transformar espacios con asesoramiento personalizado y de confianza en Sevilla.">
+  <meta name="author" content="SeviAI Ecosystem">
+  
+  <!-- Favicon - Logo de MDHOUSE en miniatura -->
+  <link rel="icon" type="image/jpeg" href="public/logo.jpeg">
+  <link rel="shortcut icon" type="image/jpeg" href="public/logo.jpeg">
+  <link rel="apple-touch-icon" href="public/logo.jpeg">
+
+  <!-- Open Graph / WhatsApp Link Preview - Ponemos la foto de Mónica como miniatura -->
+  <meta property="og:title" content="Mónica Durán | ¡Tu cazadora de sueños!">
+  <meta property="og:description" content="MDHOUSE · Servicios inmobiliarios integrales. Te acompaño en la compra, venta, alquiler o reforma de tu hogar.">
+  <meta property="og:image" content="https://hub-hub-mdhouse.npfusf.easypanel.host/public/monica.jpeg">
+  <meta property="og:image:secure_url" content="https://hub-hub-mdhouse.npfusf.easypanel.host/public/monica.jpeg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="300">
+  <meta property="og:image:height" content="300">
+  <meta property="og:url" content="https://hub-hub-mdhouse.npfusf.easypanel.host/">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mónica Durán | ¡Tu cazadora de sueños!">
+  <meta name="twitter:description" content="MDHOUSE · Servicios inmobiliarios integrales. Te acompaño en la compra, venta, alquiler o reforma de tu hogar.">
+  <meta name="twitter:image" content="https://hub-hub-mdhouse.npfusf.easypanel.host/public/monica.jpeg">
+</head>
+<body>
+
+  <div class="hub-container">
+    
+    <!-- Top Header: Elegant architectural pattern background + Logo + Glass vCard -->
+    <header class="brand-header">
+      <button class="floating-vcard" id="btn-save-vcard" onclick="generateVCard()" aria-label="Guardar contacto en la agenda">
+        <!-- Lucide download/user-plus icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/></svg>
+      </button>
+      
+      <div class="logo-container">
+        <img src="public/logo.jpeg" alt="Logo MDHOUSE" onerror="this.src='https://placehold.co/240x80?text=MDHOUSE'">
+      </div>
+    </header>
+
+    <!-- Overlapping Profile Picture of Monica Duran -->
+    <div class="profile-section">
+      <div class="profile-img-container">
+        <img src="public/monica.jpeg" alt="Mónica Durán" class="profile-img" onerror="this.src='https://placehold.co/130x130?text=Mónica'">
+      </div>
+    </div>
+
+    <!-- Slogan, Identity and Direct Clickable Contacts -->
+    <div class="profile-container">
+      <div class="profile-info">
+        <h1>MDHOUSE</h1>
+        <p class="profile-subtitle">Servicios Inmobiliarios Integrales</p>
+        <span class="gerente-tag">Mónica Durán · Agente Inmobiliario</span>
+      </div>
+
+      <!-- Slogan "Tu cazadora de sueños" stacked elegantly -->
+      <div class="slogan-box">
+        <p class="slogan">Tu cazadora de sueños</p>
+      </div>
+
+      <!-- Direct Contact Block -->
+      <div class="contact-direct">
+        <a href="tel:654078408" class="contact-link" id="link-phone-direct">
+          <!-- Lucide Phone icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <strong>654 07 84 08</strong>
+        </a>
+        <a href="mailto:monica72.duran@gmail.com" class="contact-link" id="link-email-direct">
+          <!-- Lucide Mail icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          monica72.duran@gmail.com
+        </a>
+      </div>
+
+      <!-- Short Intro Text -->
+      <p class="description">
+        Servicios inmobiliarios integrales para comprar, vender, alquilar y transformar espacios con asesoramiento personalizado.
+      </p>
+    </div>
+
+    <!-- Main Booking Actions & CTAs -->
+    <main class="section">
+      
+      <!-- Highlighted CTA: Contact with Monica via WhatsApp -->
+      <a href="https://wa.me/654078408" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="btn-cta-whatsapp">
+        <!-- Lucide MessageSquare icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        Contactar con Mónica
+      </a>
+
+      <!-- Other Main Action Links -->
+      <a href="tel:654078408" class="btn btn-outline" id="btn-link-phone-sec">
+        <!-- Lucide PhoneCall icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Llamar ahora
+      </a>
+
+      <a href="mailto:monica72.duran@gmail.com" class="btn btn-outline" id="btn-link-mail-sec">
+        <!-- Lucide Send icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        Escribir email
+      </a>
+
+      <a href="https://www.mdhouse.es" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="btn-link-web">
+        <!-- Lucide Globe icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        Web oficial
+      </a>
+
+    </main>
+
+    <!-- Services available section reconstructed elegantly -->
+    <section class="section" id="services-section">
+      <h2 class="section-title">Nuestros Servicios</h2>
+      
+      <div class="services-grid">
+        <!-- Inmobiliaria -->
+        <div class="service-card">
+          <div class="service-banner service-banner-inmobiliaria">
+            <!-- Lucide House icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Inmobiliaria</h3>
+            <p class="service-text">Te ayudamos a comprar, vender y alquilar propiedades con asesoramiento personalizado y las mejores opciones del mercado.</p>
+            <a href="https://www.mdhouse.es" target="_blank" rel="noopener noreferrer" class="service-btn">
+              Ver más
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Cocinas -->
+        <div class="service-card">
+          <div class="service-banner service-banner-cocinas">
+            <!-- Lucide ChefHat / Layout icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18M3 9h18M3 15h6"/></svg>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Cocinas</h3>
+            <p class="service-text">Diseñamos e instalamos cocinas a medida, utilizando materiales de primera calidad para crear espacios funcionales y agradables.</p>
+            <a href="https://www.mdhouse.es" target="_blank" rel="noopener noreferrer" class="service-btn">
+              Ver más
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Decoración y Reformas -->
+        <div class="service-card">
+          <div class="service-banner service-banner-decoracion">
+            <!-- Lucide Palette / Layers icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 14.7255 3.09032 17.1962 4.85857 19C5.35857 18 6 17.5 7.5 17.5C9 17.5 9.5 18.5 11 18.5C12.5 18.5 13 17.5 14.5 17.5C15.9381 17.5 16.5929 18.3685 17 19.3414"/></svg>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Decoración y Reformas</h3>
+            <p class="service-text">Transformamos tu espacio con diseños de interiorismo y reformas integrales, combinando estilo, funcionalidad y alta calidad.</p>
+            <a href="https://www.mdhouse.es" target="_blank" rel="noopener noreferrer" class="service-btn">
+              Ver más
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Networks Block (Facebook only) -->
+    <section class="section" id="socials-section">
+      <h2 class="section-title">Redes Sociales</h2>
+      <div class="social-grid">
+        <a href="https://www.facebook.com/profile.php?id=100087856822337" target="_blank" rel="noopener noreferrer" class="social-btn" id="btn-facebook-sec" aria-label="Facebook">
+          <!-- Facebook SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          Facebook Oficial
+        </a>
+      </div>
+    </section>
+
+    <!-- Brand-integrated Floating WhatsApp Bubble (Olive/Gold Gradient) -->
+    <a href="https://wa.me/654078408" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" id="btn-floating-whatsapp" aria-label="Hablar por WhatsApp">
+      <svg class="whatsapp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </a>
+
+    <!-- Footer: SeviAI Ecosystem first -->
+    <footer class="footer">
+      <div class="footer-content">
+        <a href="https://www.seviai.es/" target="_blank" rel="noopener noreferrer" class="seviai-logo-link" id="link-seviai-footer" aria-label="SeviAI website">
+          <img src="public/logo_sin_fondo.png" alt="SeviAI" class="seviai-logo">
+        </a>
+        <span class="footer-copy">© 2026 MDHOUSE &middot; SeviAI Ecosystem</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="vcard.js"></script>
+</body>
+</html>
