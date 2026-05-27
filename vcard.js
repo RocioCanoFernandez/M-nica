@@ -1,5 +1,7 @@
 function generateVCard() {
-  const hubUrl = window.location.href;
+  const hubUrl = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || !window.location.hostname 
+    ? 'https://hub-hub-monica.npfusf.easypanel.host/' 
+    : window.location.href;
   const vcard = `BEGIN:VCARD
 VERSION:3.0
 N:Durán;Mónica;;;

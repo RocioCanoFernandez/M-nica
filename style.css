@@ -74,12 +74,13 @@ body {
 /* Visual Header: Symmetrical, elegant architectural cream backdrop + treatment */
 .brand-header {
   position: relative;
-  background: linear-gradient(135deg, #FAF8F5 0%, #EDE7DE 100%);
-  padding: 3.5rem 1.5rem 5.5rem 1.5rem;
+  background: var(--color-white);
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 3px solid var(--color-primary);
+  overflow: hidden;
 }
 
 .brand-header::before {
@@ -97,7 +98,7 @@ body {
 }
 
 .logo-container {
-  max-width: 220px;
+  max-width: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -109,7 +110,6 @@ body {
 .logo-container img {
   width: 100%;
   height: auto;
-  object-fit: contain;
   display: block;
 }
 
@@ -380,6 +380,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 }
 
 /* Gorgeous architectural gradient headers for cards */
@@ -395,11 +396,11 @@ body {
   background: linear-gradient(135deg, #EBE7E1 0%, #D5CFC6 100%);
 }
 
-.service-banner svg {
-  width: 44px;
-  height: 44px;
-  color: var(--color-primary-dark);
-  opacity: 0.85;
+.service-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .service-body {
